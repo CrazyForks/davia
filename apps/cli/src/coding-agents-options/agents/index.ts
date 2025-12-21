@@ -5,10 +5,12 @@ import { githubCopilotConfig } from "./github-copilot/index.js";
 import { claudeCodeConfig } from "./claude-code/index.js";
 import { openCodeConfig } from "./open-code/index.js";
 import { augmentConfig } from "./augment/index.js";
+import { antigravityConfig } from "./antigravity/index.js";
 
 export const SUPPORTED_AGENTS: Record<string, AgentConfig> = {
   cursor: cursorConfig,
   windsurf: windsurfConfig,
+  antigravity: antigravityConfig,
   "github-copilot": githubCopilotConfig,
   "claude-code": claudeCodeConfig,
   "open-code": openCodeConfig,
