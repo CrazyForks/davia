@@ -101,7 +101,7 @@ export function getServerUrl(): string {
   const isDevelopment = process.env.NODE_ENV === "development";
   return isDevelopment
     ? "http://localhost:8000"
-    : "https://server-208104258932.us-central1.run.app";
+    : "https://server-208104258932.us-east4.run.app";
 }
 
 /**
